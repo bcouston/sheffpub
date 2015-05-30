@@ -1,0 +1,166 @@
+/*Author: Ben Couston
+	Registration No: 130155399*/
+
+/*general tags*/
+
+body {
+	background-color: #CC9900;
+	font-family: Arial, Sans-Serif;
+}
+
+p {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, a {
+	font-family: "Trebuchet MS", Sans-Serif;
+	font-size: 40px;
+	color: #FFFFFF;	
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 24px;
+	color: #FF0000;
+}
+
+h4{
+	font-size: 20px;
+	background-color: #8EE5EE;
+}
+
+a {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+/*header*/
+
+header {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	text-align: center;
+}
+
+/*wrapper*/
+
+#wrapper {
+	width: 940px;
+	height: 100%;
+	background-color: #FFEFDB;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px 20px 0px 20px;
+	border: 10px solid #FFDCB2;
+	border-radius: 20px;
+}
+
+a.wrapperlinks {
+	color: #0000FF;
+}
+
+/*images*/
+
+#floatleft {
+	float: left;
+	padding: 10px;
+}
+
+#floatright {
+	float: right;
+}
+
+/*navbar*/
+
+nav {
+	background-color: #CC9900;
+}
+
+nav ul {
+	text-align: center;
+	list-style: none;
+	background-color : #E55451;
+	border-top: 5px solid #FFDCB2;
+	border-bottom: 5px solid #FFDCB2;
+	padding: 30px;
+}
+
+nav ul li {
+	background-color : #FF9900;
+	text-decoration: none;
+	padding: 30px;
+	opacity: 0.5;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+
+nav a {
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+}
+
+nav ul li:hover {
+	opacity: 1;
+	background-color: #C13100;
+	box-shadow: 5px 5px 2px #000000;
+	border-left: 3px solid #FFFFFF;
+	text-color: #FFFFFF;
+}
+
+#currentpage {
+	background-color: #CB2521;
+	border-left: 3px solid #FFFFFF;
+	border-right: 3px solid #FFFFFF;
+	font-weight: bold;
+	opacity: 1;
+}
+
+#textenlarge {
+	font-size: 20px;
+}
+
+/*buttons*/
+
+#buttonCentre {
+	text-align: center;
+}
+	
+/*form appearance*/
+
+label {
+	text-align: right;
+	display: inline-block;
+	width: 230px;
+}
+
+input.formbutton, input.textbox {
+    text-align: center;
+	display: inline-block;
+	width: 232px;
+}
+
+input.textbox {
+	text-align: left;
+	width: 230px;
+}
+
+/*footer*/
+
+footer {
+	clear: both;
+	font-size: 75%;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
